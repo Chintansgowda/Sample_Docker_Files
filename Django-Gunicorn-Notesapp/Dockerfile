@@ -14,4 +14,4 @@ ENV PYTHONDONTWRITEBYTECODE=1
 
 ENV PYTHONUNBUFFERED=1
 
-CMD [ "sh", "-c", "python3 manage.py migrate && gunicorm notesapp.wsgi:application --bind 0.0.0.0:8000" ]
+CMD [ "sh", "-c", "python3 manage.py migrate && gunicorn notesapp.wsgi:application --bind 0.0.0.0:8000" ]
