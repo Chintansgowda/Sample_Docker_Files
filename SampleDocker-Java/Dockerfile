@@ -45,20 +45,3 @@ ENTRYPOINT ["java", "Main"]
 #Here notice we are copying only the Main.java file so .class file will be created in the /app folder itself not inside src/Main.class and src/Main.java
 #So while running the java application we dont need to specify the classpath here because the .class file is in the same directory where we are running the java command
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
