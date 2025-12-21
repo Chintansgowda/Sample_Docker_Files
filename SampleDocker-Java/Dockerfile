@@ -12,15 +12,15 @@ CMD ["java", "-cp", "src", "Main"]
 
 ###################
 # Explanation:
-<<<<<<< HEAD
+
 #When you complie the java application .java files(Main.java) gets compiled and stored as .class files (Main.class)
 #javac converts:  # Main.java  →  Main.class 
 #By default, javac stores the .class file in the SAME directory as the .java file.
 #So while running the java application we have to specify the classpath where the .class files are stored in our case it is inside the src folder 
-=======
+
 #When you complie the java application it gets compiled and stored in .class files
 #So while running the java application we have to specify the classpath where the .class files are stored in our it is inside the src folder 
->>>>>>> 934d1b0580056cea993df502a53d992b7faeadae
+
 #we can specitfy the classpath using -cp option
 #-CP stands for classpath It tells Java:Where to search for .class files and libraries when running your program.
 
@@ -63,7 +63,6 @@ ENTRYPOINT ["java", "Main"]
 
 
 
-<<<<<<< HEAD
 
 
 
