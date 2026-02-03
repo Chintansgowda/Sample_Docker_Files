@@ -16,5 +16,5 @@ COPY . .
 # Expose container port
 EXPOSE 8000
 
-# Run migrations and then start the server
-CMD [ "sh", "-c", "python3 manage.py migrate && python3 manage.py runserver 0.0.0.0:8000" ]
+# start the server
+CMD ["python3", "manage.py", "runserver", "0.0.0.0:8000"]
