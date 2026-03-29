@@ -13,6 +13,12 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy the current directory contents into the container at /app
 COPY . .
 
+# Prevents Python from writing .pyc files to disk
+ENV PYTHONDONTWRITEBYTECODE=1
+
+# Ensures real-time logs
+ENV PYTHONUNBUFFERED=1
+
 # Expose container port
 EXPOSE 8000
 
