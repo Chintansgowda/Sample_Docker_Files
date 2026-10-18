@@ -14,10 +14,13 @@ COPY . .
 
 RUN pip install -r requirements.txt
 
-# expose Container port 80
+# expose Container port 5000
 
 EXPOSE 80
 
 # serve the app / run the app (keep it running)
 
-CMD ["python3","run.py"]
+CMD ["python","run.py"]
+
+
+
