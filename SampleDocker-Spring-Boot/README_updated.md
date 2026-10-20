@@ -5,39 +5,6 @@
 A beginner-friendly guide to packaging a Spring Boot application into a Docker image and running it as a container.
 
 
-
-**## Table of Contents**
-
-
-
-\- [Overview]\(#overview)
-
-\- [How It Works]\(#how-it-works)
-
-\- [Project Structure]\(#project-structure)
-
-\- [Prerequisites]\(#prerequisites)
-
-\- [Step 1: Build the JAR with Maven]\(#step-1-build-the-jar-with-maven)
-
-\- [Step 2: Create the Dockerfile]\(#step-2-create-the-dockerfile)
-
-\- [Step 3: Build the Docker Image]\(#step-3-build-the-docker-image)
-
-\- [Step 4: Run the Container]\(#step-4-run-the-container)
-
-\- [Step 5: Test the Application]\(#step-5-test-the-application)
-
-\- [Understanding Ports]\(#understanding-ports)
-
-\- [Useful Docker Commands]\(#useful-docker-commands)
-
-\- [Troubleshooting]\(#troubleshooting)
-
-\- [Production Notes]\(#production-notes)
-
-
-
 **## Overview**
 
 
